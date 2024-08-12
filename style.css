@@ -1,0 +1,7 @@
+/* medida celular */
+@media only screen and (max-width: 800px) {
+}
+/*medida tablet */
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+}
+/* restante es medida pc*/
