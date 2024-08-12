@@ -5,3 +5,46 @@
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
 }
 /* restante es medida pc*/
+.bienvenido{
+    align-items: center;
+  justify-content: flex-start;
+  padding-left: 450px;
+  background-color: antiquewhite;
+}
+h1 {
+    color: black;
+    font-size: 36px;
+}
+.texto1{
+    align-items: center;
+  justify-content: flex-start;
+  background-color: green;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+#imagen{
+    padding-left: 520px; 
+}
+
+#texto::before {
+    content: "Este texto cambia segun el dispositivo";
+    color: black;
+    font-size: 34px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.videito1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+}  
