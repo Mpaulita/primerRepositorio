@@ -1,5 +1,53 @@
 /* medida celular */
 @media only screen and (max-width: 800px) {
+    .bienvenido{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      background-color:black;
+    }
+    h1 {
+        color:lightgray;
+        font-size: 36px;
+    }
+    .texto1{
+      
+      background-color:burlywood;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    h2 {
+        color:saddlebrown;
+        font-size: 28px;
+    }
+    
+    #texto::before {
+        content: "Esta es la vista en un celular";
+        color:black;
+        background-color: gainsboro;
+        font-size: 34px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .videito1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:coral;
+        padding: 20px;
+        margin: 20px auto;
+        width: 50%;
+        border-radius: 8px;
+    } 
+    #linkVideo{
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+    }
 }
 /*medida tablet */
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
@@ -45,8 +93,13 @@
         width: 50%;
         border-radius: 8px;
     }  
+    #linkVideo{
+        text-decoration: none;
+        font-size: 30px;
+        color:slateblue;
+    }
 }
-/* restante es medida pc*/
+/* medida pc*/
 @media (min-width: 1024px) {
     .bienvenido{
         text-align: center;
@@ -89,5 +142,10 @@
         width: 50%;
         border-radius: 8px;
     }  
+    #linkVideo{
+        text-decoration: none;
+        font-size: 30px;
+        color: red;
+    }
 }
 
