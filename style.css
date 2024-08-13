@@ -23,7 +23,7 @@
         font-size: 28px;
     }
     
-    #texto::before {
+    #texto {
         content: "Esta es la vista en un celular";
         color:black;
         background-color: gainsboro;
@@ -74,7 +74,7 @@
         font-size: 28px;
     }
     
-    #texto::before {
+    #texto {
         content: "Esta es la vista en una tablet";
         color: plum;
         font-size: 34px;
@@ -123,7 +123,7 @@
         font-size: 28px;
     }
     
-    #texto::before {
+    #texto {
         content: "Este texto cambia segun el dispositivo";
         color: black;
         font-size: 34px;
